@@ -1,0 +1,144 @@
+{
+  "main": {
+    "firstName": "Jeff",
+    "name": "Veerabhadreshwara Enterprises",
+    "occupation": "Front end Developer",
+    "description": "Developer by day, Dancer by night",
+    "image": "Shashi-Cropped.jpg",
+    "bio": "We'll provide all kinds of Berger Paints with various kinds of designs.",
+    "contactmessage": "Get in touch with me to receive further details.",
+    "email": "geraldjtorres@gmail.com",
+    "address": {
+      "city": "Sikkeri Cross",
+      "state": "Bagalkot"
+    },
+    "website": "https://teamtreehouse.com/geraldtorres",
+    "resumedownload": "https://drive.google.com/file/d/1m10ZxypPLiEzUgH8DmYVWTAi00G90gZR/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "location",
+        "url": "https://maps.app.goo.gl/tJnLkKxAxKJsEbBs5",
+        "className": "fa fa-map-marker"
+      }
+
+    ]
+  },
+  "resume": {
+    "skillmessage": "I am well versed in using React.JS as my main Front end tech stack along with Redux and Firebase",
+    "education": [
+      {
+        "school": "University of Wesminster",
+        "degree": "Bachelors of Science in Multimedia Computing",
+        "graduated": "June 2015",
+        "description": "Graduated with Distinction"
+      }
+    ],
+    "work": [
+      {
+        "company": "Synechron",
+        "title": "Front end Developer",
+        "years": "March 2018 - Present",
+        "description": "Develop cutting edge FinTech applications for leading banks such as HSBC"
+      },
+      {
+        "company": "Red Apple Creative",
+        "title": "Front end Developer",
+        "years": "Nov 2016 - March 2018",
+        "description": "Rapdily build React driven campaign applications for exciting companies such as Spotify, Disney and Bose"
+      },
+
+      {
+        "company": "Foxtons",
+        "title": "Junior Developer",
+        "years": "Dev 2014 - Nov 2016",
+        "description": "Updating and maintaining London's leading Real Estate Agency website and internal Intranet"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "CSS",
+        "level": "95%"
+      },
+      {
+        "name": "Redux",
+        "level": "75%"
+      },
+      {
+        "name": "Figma, Adobe XD, Sketch",
+        "level": "55%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "Firebase",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MERN Stack WhatsApp Clone",
+        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "whatsapp-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+      },
+      {
+        "title": "MERN Stack TikTok Clone",
+        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "tiktok-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Facebook Clone with React",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "facebook-clone.png",
+        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "airbnb-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "netflix-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "I've known young Jeff for 2 years and all I can say he is a shit coder fam and still uses tables and spacer gifs for layouts",
+        "user": "Taj Rahman"
+      },
+      {
+        "text": "Yeah the guy's clapped, don't work with him",
+        "user": "Jennifer Torres"
+      },
+      {
+        "text": "If he can clap a website together as fast as them cheeks, mans got skill",
+        "user": "Nathan Patton"
+      }
+    ]
+  }
+}

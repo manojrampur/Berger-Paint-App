@@ -1,0 +1,158 @@
+/* General styles for cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; /* Increased gap between cards */
+  justify-content: space-between; /* Align items with space between them */
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(25% - 1.5rem); /* Adjust width to fit card size */
+  text-align: center;
+  padding: 1.5rem; /* Increased padding for larger cards */
+  box-sizing: border-box;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem; /* Increased margin for spacing */
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1.25rem; /* Adjusted font size for better readability */
+  color: #333; /* Adjusted color */
+}
+
+/* Popup styles */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  backdrop-filter: blur(5px); /* Background blur effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  position: relative;
+  background: #fff;
+  padding: 2rem; /* Increased padding */
+  border-radius: 8px;
+  width: 40vw; /* Increased width to make popup larger */
+  max-width: 1000px; /* Limit the maximum width for very large screens */
+  max-height: 80vh; /* Restrict height to fit better within viewport */
+  overflow: auto;
+}
+
+.popup-content img {
+  width: 100%; /* Image will take the full width of the popup */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 15px; /* Increased space from the top */
+  right: 15px; /* Increased space from the right */
+  font-size: 24px;
+  color: #333;
+  cursor: pointer; /* Pointer cursor for the close button */
+  background: #f1f1f1;
+  border: none;
+  border-radius: 50%;
+  width: 40px; /* Slightly larger close button */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.popup-close:hover {
+  color: #d1002b;
+  background: #eee;
+}
+
+/* Bullet Points in Popup */
+.popup-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem; /* Space for bullet points */
+  margin-top: 1rem; /* Space above the list */
+}
+
+.popup-content ul li {
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .card {
+    width: calc(25% - 1.5rem); /* Adjust width for larger screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: calc(33.333% - 1.5rem); /* 3 cards per row for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 1.5rem); /* 2 cards per row for small screens */
+  }
+
+  .popup-content {
+    width: 80vw; /* Increase popup width on small screens */
+  }
+
+  .popup-content img {
+    max-height: 50vh; /* Increase the height of the image on mobile */
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: calc(100% - 1.5rem); /* 1 card per row for extra small screens */
+  }
+
+  .card h3 {
+    font-size: 1.25rem; /* Decrease font size on smaller screens */
+  }
+
+  .popup-content img {
+    max-height: 60vh; /* Further increase the height of the image on smaller screens */
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    width: calc(100% - 1.5rem); /* 1 card per row for very small screens */
+  }
+
+  .card h3 {
+    font-size: 1rem; /* Further decrease font size on very small screens */
+  }
+
+  .popup-content {
+    width: 90vw; /* Maximum width on very small screens */
+    padding: 1rem; /* Reduce padding on very small screens */
+  }
+
+  .popup-content img {
+    max-height: 70vh; /* Maximize image height on very small screens */
+  }
+}
